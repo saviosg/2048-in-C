@@ -24,6 +24,7 @@ ifeq ($(OS),Windows_NT)
 else
 	cp utils/game out/
 endif
+	cp -r utils/assets out/
 
 clean:
 	make clean -C PDCursesMod/sdl1
