@@ -1,0 +1,8 @@
+* 		text=auto
+*.cmd	text eol=crlf
+*.sh	text eol=lf
+home/**	text eol=lf
+
+.gitattributes export-ignore
+.gitignore     export-ignore
+.gitkeep       export-ignore
